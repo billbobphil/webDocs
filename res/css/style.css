@@ -1,0 +1,30 @@
+/*
+    Colors
+        -Primary: #43c92e;
+*/
+
+.main_container
+{
+    height: 774px;
+    width: 423px;
+    background-image: url("../img/galaxy_phone.png");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.05);
+}
+
+.phone_screen
+{
+    position: absolute;
+    top: 50%;
+    left: 49.9%;
+    /* height: 465px; */
+    height: 640px;
+    /* width: 280px; */
+    width: 360px;
+    background-color: black;
+    transform: translate(-50%, -50%);
+}
